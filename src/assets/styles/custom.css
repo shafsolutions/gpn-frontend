@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+.card-anggota {
+  @apply bg-white shadow-md p-3 md:p-6 rounded-lg w-full;
+}
+.card-anggota img {
+  @apply w-full h-[120px] md:h-[180px] object-cover rounded-lg;
+}
