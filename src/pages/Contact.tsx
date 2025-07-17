@@ -3,7 +3,7 @@ import Footer from '../assets/components/Footer';
 import Navbar from '../assets/components/Navbar';
 import Cta from '../assets/components/Cta';
 
-const Contact = () => {
+const Gallery = () => {
   return (
     <>
       <Navbar />
@@ -22,4 +22,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Gallery;
