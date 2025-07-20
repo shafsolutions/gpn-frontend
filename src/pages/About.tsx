@@ -16,7 +16,7 @@ const Gallery = () => {
         </div>
       </section>
 
-      <section className='max-w-7xl mx-3 md:mx-auto'>
+      <section className='max-w-7xl mx-3 md:mx-auto bg-green-100 rounded-lg'>
         <img src="https://picsum.photos/300/200?random=" alt="" className='w-full h-[350px] rounded-lg object-cover' />
       </section>
 
@@ -69,8 +69,14 @@ const Gallery = () => {
           <div id='heading' className='relative'>
             <h2 className='accent text-[24px] md:text-[32px] font-bold'>Struktur Organisasi</h2>
           </div>
-          <div className='h-[400px]'>
-            struktur data
+          <div className='relative w-full h-[400px]'>
+            <div id="struktur-data" className='absolute top-0 left-[50%] translate- card-struktur-data flex items-center gap-3'>
+              <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+              <div className='flex flex-col gap-1'>
+                <h4 className='text-sm font-semibold'>John Doe</h4>
+                <p className='text-xs'>Ketua Umum</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
