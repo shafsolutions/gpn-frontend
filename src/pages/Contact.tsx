@@ -22,7 +22,7 @@ const Contact = () => {
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15547.262528614308!2d108.239700245641!3d3.999999835579161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31ec6fc2ce9cc2a3%3A0x5d117d4612d1f817!2sKabupaten%20Natuna!5e1!3m2!1sid!2sid!4v1752758918902!5m2!1sid!2sid" className='w-full h-full' loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="col-span-3 md:col-span-2 flex flex-col gap-4">
-              <div className='bg-blue-600 p-4 md:p-8 rounded-lg grid grid-cols-3 gap-4'>
+              <div className='bg-green-600 p-4 md:p-8 rounded-lg grid grid-cols-3 gap-4'>
                 <div className='flex flex-col gap-2 items-center'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="white" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg>
                   <p className="text-white text-sm">helo@gpn.com</p>
@@ -36,53 +36,53 @@ const Contact = () => {
                   <p className="text-white text-center text-sm">Basecamp, <br />Natuna, Riau</p>
                 </div>
               </div>
-              <div className='bg-lightblue p-4 md:p-8 rounded-lg'>
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
-                    Nama
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="w-full px-4 py-2 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Masukkan nama anda"
-                  />
-                </div>
+              <div className='bg-white shadow-md p-4 md:p-8 rounded-lg'>
+                <form className="space-y-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                      Nama
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      className="w-full px-4 py-2 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                      placeholder="Masukkan nama anda"
+                    />
+                  </div>
 
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
-                    Nomor Telepon
-                  </label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-2 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="08xxxxxxxxxx"
-                  />
-                </div>
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                      Nomor Telepon
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      className="w-full px-4 py-2 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                      placeholder="08xxxxxxxxxx"
+                    />
+                  </div>
 
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                    Pesan
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={4}
-                    className="w-full px-4 py-2 bg-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    placeholder="Tulis pesan anda di sini..."
-                  ></textarea>
-                </div>
+                  <div>
+                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                      Pesan
+                    </label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows={4}
+                      className="w-full px-4 py-2 bg-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                      placeholder="Tulis pesan anda di sini..."
+                    ></textarea>
+                  </div>
 
-                <div className="text-start">
-                  <button className='text-nowrap flex items-center gap-2 bg-yellow-400 px-7 py-3 rounded-full hover:bg-yellow-500 text-sm'>Kirim Pesan
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="" viewBox="0 0 256 256"><path d="M192,136v72a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64h72a8,8,0,0,1,0,16H48V208H176V136a8,8,0,0,1,16,0Zm32-96a8,8,0,0,0-8-8H152a8,8,0,0,0-5.66,13.66L172.69,72l-42.35,42.34a8,8,0,0,0,11.32,11.32L184,83.31l26.34,26.35A8,8,0,0,0,224,104Z"></path></svg>
-                  </button>
-                </div>
-              </form>
+                  <div className="text-start">
+                    <button className='text-nowrap flex items-center gap-2 text-white bg-orange-400 px-7 py-3 rounded-full hover:bg-orange-500 text-sm'>Kirim Pesan
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className='fill-white' viewBox="0 0 256 256"><path d="M192,136v72a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V80A16,16,0,0,1,48,64h72a8,8,0,0,1,0,16H48V208H176V136a8,8,0,0,1,16,0Zm32-96a8,8,0,0,0-8-8H152a8,8,0,0,0-5.66,13.66L172.69,72l-42.35,42.34a8,8,0,0,0,11.32,11.32L184,83.31l26.34,26.35A8,8,0,0,0,224,104Z"></path></svg>
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>

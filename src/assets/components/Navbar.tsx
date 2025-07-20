@@ -9,7 +9,7 @@ const Navbar = () => {
       <nav className="fixed top-0 z-99 w-full px-6 py-4 bg-white shadow-sm">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <a href='/' className="text-xl font-bold text-gray-800">
-            <img src="./assets/media/img/logo-gpn.png" alt="" className='w-[80px] md:w-[160px]' />
+            <img src="./assets/media/img/logo-gerakan-pemuda-natuna.png" alt="" className='w-[40px] md:w-[60px]' />
           </a>
 
           {/* Menu Desktop */}
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <NavLink
                   to="/tentang-kami"
                   className={({ isActive }) =>
-                    isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                    isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                   }
                 >
                   Tentang Kami
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <NavLink
                   to="/kecamatan"
                   className={({ isActive }) =>
-                    isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                    isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                   }
                 >
                   Kecamatan
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <NavLink
                   to="/galeri"
                   className={({ isActive }) =>
-                    isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                    isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                   }
                 >
                   Galeri
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <NavLink
                   to="/artikel"
                   className={({ isActive }) =>
-                    isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                    isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                   }
                 >
                   Artikel
@@ -59,7 +59,7 @@ const Navbar = () => {
                 <NavLink
                   to="/hubungi-kami"
                   className={({ isActive }) =>
-                    isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                    isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                   }
                 >
                   Hubungi Kami
@@ -68,8 +68,8 @@ const Navbar = () => {
             </ul>
 
             <ul className="hidden md:flex space-x-4 text-gray-700 font-medium">
-              <li><a href="/masuk" className="hover:text-blue-600 text-sm">Masuk</a></li>
-              <li><a href="/daftar" className="text-white bg-blue-600 px-7 py-3 rounded-full hover:bg-blue-700 text-sm">Daftar</a></li>
+              <li><a href="/masuk" className="hover:text-orange-400 text-sm">Masuk</a></li>
+              <li><a href="/daftar" className="text-white bg-orange-400 px-7 py-3 rounded-full hover:bg-orange-500 text-sm">Daftar</a></li>
             </ul>
           </div>
 
@@ -101,7 +101,7 @@ const Navbar = () => {
               <NavLink
                 to="/tentang-kami"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                  isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                 }
               >
                 Tentang Kami
@@ -111,7 +111,7 @@ const Navbar = () => {
               <NavLink
                 to="/kecamatan"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                  isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                 }
               >
                 Kecamatan
@@ -121,7 +121,7 @@ const Navbar = () => {
               <NavLink
                 to="/galeri"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                  isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                 }
               >
                 Galeri
@@ -131,7 +131,7 @@ const Navbar = () => {
               <NavLink
                 to="/artikel"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                  isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                 }
               >
                 Artikel
@@ -141,14 +141,14 @@ const Navbar = () => {
               <NavLink
                 to="/hubungi-kami"
                 className={({ isActive }) =>
-                  isActive ? 'text-blue-600 text-sm' : 'hover:text-blue-600 text-sm'
+                  isActive ? 'text-orange-400 text-sm' : 'hover:text-orange-400 text-sm'
                 }
               >
                 Hubungi Kami
               </NavLink>
             </li>
-            <li><a href="/masuk" className="hover:text-blue-600 text-sm">Masuk</a></li>
-            <li><a href="/daftar" className="hover:text-blue-600 text-sm">Daftar</a></li>
+            <li><a href="/masuk" className="hover:text-orange-400 text-sm">Masuk</a></li>
+            <li><a href="/daftar" className="hover:text-orange-400 text-sm">Daftar</a></li>
           </ul>
         </div>
       </nav>

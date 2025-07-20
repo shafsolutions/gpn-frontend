@@ -17,14 +17,14 @@ const Kecamatan = () => {
         </div>
       </section>
 
-      <section id="data" className="bg-blue-600 py-16">
+      <section id="data" className="bg-green-600 py-16">
         <div className='max-w-7xl mx-3 md:mx-auto flex flex-col gap-8'>
           <div id='heading' className='relative'>
-            <h2 className='accent-blue text-white text-[24px] md:text-[32px] font-bold'>Data Statistik</h2>
+            <h2 className='accent-green text-white text-[24px] md:text-[32px] font-bold'>Data Statistik</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div className="bg-white p-6 rounded-lg flex items-center justify-center gap-4 scale-100 hover:scale-102 duration-200 ease-out">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-yellow-400' viewBox="0 0 256 256"><path d="M124,175a8,8,0,0,0,7.94,0c2.45-1.41,60-35,60-94.95A64,64,0,0,0,64,80C64,140,121.58,173.54,124,175ZM128,56a24,24,0,1,1-24,24A24,24,0,0,1,128,56ZM240,184c0,31.18-57.71,48-112,48S16,215.18,16,184c0-14.59,13.22-27.51,37.23-36.37a8,8,0,0,1,5.54,15C42.26,168.74,32,176.92,32,184c0,13.36,36.52,32,96,32s96-18.64,96-32c0-7.08-10.26-15.26-26.77-21.36a8,8,0,0,1,5.54-15C226.78,156.49,240,169.41,240,184Z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-orange-400' viewBox="0 0 256 256"><path d="M124,175a8,8,0,0,0,7.94,0c2.45-1.41,60-35,60-94.95A64,64,0,0,0,64,80C64,140,121.58,173.54,124,175ZM128,56a24,24,0,1,1-24,24A24,24,0,0,1,128,56ZM240,184c0,31.18-57.71,48-112,48S16,215.18,16,184c0-14.59,13.22-27.51,37.23-36.37a8,8,0,0,1,5.54,15C42.26,168.74,32,176.92,32,184c0,13.36,36.52,32,96,32s96-18.64,96-32c0-7.08-10.26-15.26-26.77-21.36a8,8,0,0,1,5.54-15C226.78,156.49,240,169.41,240,184Z"></path></svg>
               <div className='flex flex-col'>
                 <h3 className='text-[32px] font-bold'>
                   <AnimatedNumber target={17} />
@@ -33,7 +33,7 @@ const Kecamatan = () => {
               </div>
             </div>
             <div className="bg-white p-6 rounded-lg flex items-center justify-center gap-4 scale-100 hover:scale-102 duration-200 ease-out">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-yellow-400' viewBox="0 0 256 256"><path d="M100,36a28,28,0,1,1,28,28A28,28,0,0,1,100,36ZM215.42,140.78l-45.25-51.3a28,28,0,0,0-21-9.48H106.83a28,28,0,0,0-21,9.48l-45.25,51.3a16,16,0,0,0,22.56,22.69L89,142.7l-19.7,74.88a16,16,0,0,0,29.08,13.35L128,180l29.58,51a16,16,0,0,0,29.08-13.35L167,142.7l25.9,20.77a16,16,0,0,0,22.56-22.69Z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-orange-400' viewBox="0 0 256 256"><path d="M100,36a28,28,0,1,1,28,28A28,28,0,0,1,100,36ZM215.42,140.78l-45.25-51.3a28,28,0,0,0-21-9.48H106.83a28,28,0,0,0-21,9.48l-45.25,51.3a16,16,0,0,0,22.56,22.69L89,142.7l-19.7,74.88a16,16,0,0,0,29.08,13.35L128,180l29.58,51a16,16,0,0,0,29.08-13.35L167,142.7l25.9,20.77a16,16,0,0,0,22.56-22.69Z"></path></svg>
               <div className='flex flex-col'>
                 <h3 className='text-[32px] font-bold'>
                   <AnimatedNumber target={1250} />
@@ -42,7 +42,7 @@ const Kecamatan = () => {
               </div>
             </div>
             <div className="bg-white p-6 rounded-lg flex items-center justify-center gap-4 scale-100 hover:scale-102 duration-200 ease-out">
-              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-yellow-400' viewBox="0 0 256 256"><path d="M200,75.64V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V76a16.07,16.07,0,0,0,6.4,12.8L114.67,128,62.4,167.2A16.07,16.07,0,0,0,56,180v36a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V180.36a16.08,16.08,0,0,0-6.35-12.76L141.27,128l52.38-39.59A16.09,16.09,0,0,0,200,75.64ZM178.23,176H77.33L128,138ZM184,75.64,128,118,72,76V40H184Z"></path></svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" className='fill-orange-400' viewBox="0 0 256 256"><path d="M200,75.64V40a16,16,0,0,0-16-16H72A16,16,0,0,0,56,40V76a16.07,16.07,0,0,0,6.4,12.8L114.67,128,62.4,167.2A16.07,16.07,0,0,0,56,180v36a16,16,0,0,0,16,16H184a16,16,0,0,0,16-16V180.36a16.08,16.08,0,0,0-6.35-12.76L141.27,128l52.38-39.59A16.09,16.09,0,0,0,200,75.64ZM178.23,176H77.33L128,138ZM184,75.64,128,118,72,76V40H184Z"></path></svg>
               <div className='flex flex-col'>
                 <h3 className='text-[32px] font-bold'>
                   <AnimatedNumber target={315} />
@@ -54,14 +54,14 @@ const Kecamatan = () => {
         </div>
       </section>
 
-      <section id='kecamatan' className='bg-lightblue py-16'>
+      <section id='kecamatan' className='bg-lightgreen py-16'>
         <div className='max-w-7xl mx-3 md:mx-auto flex flex-col gap-8'>
           <div className="w-full flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-0 justify-between">
             <div id='heading' className='relative'>
               <h2 className='accent text-[24px] md:text-[32px] font-bold'>Sebaran Organisasi GPN</h2>
             </div>
             <div>
-              <a href="" className='text-nowrap flex items-center gap-2 bg-blue-600 px-7 py-3 rounded-full hover:bg-blue-700 text-sm text-white'>Lihat lebih banyak
+              <a href="" className='text-nowrap flex items-center gap-2 bg-orange-400 px-7 py-3 rounded-full hover:bg-orange-500 text-sm text-white'>Lihat lebih banyak
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
               </a>
             </div>
