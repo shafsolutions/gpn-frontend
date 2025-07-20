@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 
 import Footer from '../assets/components/Footer';
 import Navbar from '../assets/components/Navbar';
@@ -5,6 +6,10 @@ import AnimatedNumber from '../assets/components/AnimatedNumber';
 import Cta from '../assets/components/Cta';
 
 const Kecamatan = () => {
+  useEffect(() => {
+    document.title = "Kecamatan | GPN"
+  }, []);
+
   return (
     <>
       <Navbar />

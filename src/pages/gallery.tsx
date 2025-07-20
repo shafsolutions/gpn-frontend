@@ -1,9 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Footer from '../assets/components/Footer';
 import Navbar from '../assets/components/Navbar';
 import Cta from '../assets/components/Cta';
 
 const Gallery = () => {
+  useEffect(() => {
+    document.title = "Galeri | GPN"
+  }, []);
+
   const [visibleCount, setVisibleCount] = useState(8); // jumlah awal gambar
 
   const handleLoadMore = () => {

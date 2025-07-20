@@ -1,10 +1,14 @@
+import { useEffect, useState } from 'react';
 
 import Footer from '../assets/components/Footer';
 import Navbar from '../assets/components/Navbar';
 import Cta from '../assets/components/Cta';
-import { useState } from 'react';
 
 const Article = () => {
+  useEffect(() => {
+    document.title = "Artikel & Berita | GPN"
+  }, []);
+
   const [visibleArticles, setVisibleArticles] = useState(8);
   const totalArticles = 12;
 

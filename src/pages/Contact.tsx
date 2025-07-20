@@ -1,9 +1,14 @@
+import { useEffect } from 'react';
 
 import Footer from '../assets/components/Footer';
 import Navbar from '../assets/components/Navbar';
 import Cta from '../assets/components/Cta';
 
 const Contact = () => {
+  useEffect(() => {
+    document.title = "Kontak Kami | GPN"
+  }, []);
+
   return (
     <>
       <Navbar />
