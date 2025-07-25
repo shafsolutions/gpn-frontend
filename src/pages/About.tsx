@@ -74,12 +74,113 @@ const Gallery = () => {
           <div id='heading' className='relative'>
             <h2 className='accent text-[24px] md:text-[32px] font-bold'>Struktur Organisasi</h2>
           </div>
-          <div className='relative w-full h-[400px]'>
-            <div id="struktur-data" className='absolute top-0 left-[50%] translate- card-struktur-data flex items-center gap-3'>
-              <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
-              <div className='flex flex-col gap-1'>
-                <h4 className='text-sm font-semibold'>John Doe</h4>
-                <p className='text-xs'>Ketua Umum</p>
+          <div className='relative w-full h-[800px]'>
+            <div id="struktur-data">
+              <div className="line-structure-first"></div>
+              <div id='pembina' className='absolute z-[20] top-0 left-[50%] card-struktur-data flex items-center gap-3 translate-x-[-50%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Pembina</p>
+                </div>
+              </div>
+              <div id='ketua' className='absolute z-[20] top-[15%] left-[50%] card-struktur-data flex items-center gap-3 translate-x-[-50%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Ketua Umum</p>
+                </div>
+              </div>
+
+              <div className="line-structure-2"></div>
+              <div id='sekretaris' className='absolute z-[20] top-[30%] left-[20%] card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Sekretaris</p>
+                </div>
+              </div>
+              <div id='bendahara' className='absolute z-[20] top-[30%] right-[20%] card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Bendahara</p>
+                </div>
+              </div>
+
+              <div id='wakil1' className='absolute z-[20] top-[45%] left-[20%] card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Wakil Ketua I</p>
+                </div>
+              </div>
+              <div id='wakil2' className='absolute z-[20] top-[45%] right-[20%] card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Wakil Ketua II</p>
+                </div>
+              </div>
+
+              <div className="line-structure-3"></div>
+              <div className="line-structure-3-1"></div>
+              <div className="line-structure-3-2"></div>
+              <div className="line-structure-3-3"></div>
+              <div className='absolute z-[20] top-[65%] left-[0%] flex gap-1'>
+                <div id='bidorg' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Organisasi <br />dan Keanggotaan</p>
+                  </div>
+                </div>
+                <div id='bidkes' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Kesehatan</p>
+                  </div>
+                </div>
+                <div id='bidmas' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Humas dan <br />Dokumentasi</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className='absolute z-[20] top-[65%] right-[0%] flex gap-1'>
+                <div id='bidrus' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Kewirausahaan</p>
+                  </div>
+                </div>
+                <div id='bidgam' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Keagamaan</p>
+                  </div>
+                </div>
+                <div id='bidorg' className='card-struktur-data flex items-center gap-3 translate-x-[0%] translate-y-[0%]'>
+                  <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                  <div className='flex flex-col gap-0'>
+                    <h4 className='text-sm font-semibold'>John Doe</h4>
+                    <p className='text-xs'>Bidang Olahraga <br />dan Seni Budaya</p>
+                  </div>
+                </div>
+              </div>
+
+              <div id='ketua' className='absolute z-[20] top-[85%] left-[50%] card-struktur-data flex items-center gap-3 translate-x-[-50%] translate-y-[0%]'>
+                <img src="https://picsum.photos/300/200?random=" alt="" className='w-[70px] h-[70px] rounded-md' />
+                <div className='flex flex-col gap-0'>
+                  <h4 className='text-sm font-semibold'>John Doe</h4>
+                  <p className='text-xs'>Anggota</p>
+                </div>
               </div>
             </div>
           </div>
