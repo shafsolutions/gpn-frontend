@@ -67,12 +67,11 @@ const Login = () => {
                 >
                   Masuk
                 </button>
-                <button
-                  type="button"
-                  className="w-full border border-gray-200 py-3 rounded-full font-semibold text-gray-700 hover:bg-gray-100"
+                <a href="/daftar"
+                  className="flex items-center justify-center w-full border border-gray-200 py-3 rounded-full font-semibold text-gray-700 hover:bg-gray-100"
                 >
                   Daftar
-                </button>
+                </a>
               </form>
             </div>
             <div className="text-center mt-4">
