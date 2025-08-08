@@ -9,19 +9,17 @@ const Register = () => {
   return (
     <div className="min-h-screen flex items-center justify-center bg-primary-gradient px-4 py-8">
       <div className="flex flex-col md:flex-row items-center md:justify-between gap-8 w-full max-w-7xl">
-        {/* Logo & Deskripsi */}
         <div className="text-center md:text-left flex flex-col items-center gap-3">
           <img
             src="/assets/media/img/logo-gerakan-pemuda-natuna.png"
             alt="Logo GPN"
-            className="w-32 md:w-64 mx-auto md:mx-0"
+            className="w-40 md:w-[512px] mx-auto md:mx-0"
           />
           <p className="text-sm md:text-lg text-center font-semibold text-gray-700 max-w-md">
             Gerakan Pemuda Natuna adalah ruang kolaborasi untuk membawa perubahan nyata bagi daerah tercinta, Natuna
           </p>
         </div>
 
-        {/* Formulir */}
         <div className="flex flex-col gap-2 w-full max-w-lg">
           <div className="bg-white shadow-md rounded-xl px-6 py-8 md:px-10 md:py-12">
             <h2 className="text-center text-xl md:text-2xl font-bold mb-6">
